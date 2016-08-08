@@ -1,4 +1,4 @@
-angular.module("newsSummaryApp")
+angular.module("skyApp")
   .controller("ArticleHeadlineController", ["$http", function($http) {
     var self = this;
 
@@ -11,6 +11,7 @@ angular.module("newsSummaryApp")
       params: { apiRequestUrl: GUARDIAN_API_URL + ARTICLE_ID }
     }).then(function(response) {
       self.headline = response.data.response.content.webTitle;
+      console.log(self.headline);
     });
 
     // this controller feels bloated...
