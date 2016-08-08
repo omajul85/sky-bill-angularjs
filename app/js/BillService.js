@@ -1,7 +1,7 @@
 skyApp.service("BillService", ["BillFactory", "$http", function(BillFactory, $http) {
 
   this.getBill = function() {
-    var url = "http://safe-plains-5453.herokuapp.com/bill.json";
+    var url = "https://safe-plains-5453.herokuapp.com/bill.json";
     return $http.get(url).then(_createBill);
   };
 

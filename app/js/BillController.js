@@ -4,6 +4,7 @@ skyApp.controller("BillController", ["BillFactory", "BillService", function(Bill
     
     BillService.getBill().then(function(response) {
       self.bill = response;
+      console.log(self.bill);
     });
 
   }]);
