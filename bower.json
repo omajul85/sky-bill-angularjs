@@ -1,0 +1,19 @@
+{
+  "name": "sky-bill",
+  "description": "App that displays a customer's Sky bill",
+  "main": "",
+  "authors": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5"
+  }
+}

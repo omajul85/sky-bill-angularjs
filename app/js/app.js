@@ -1,0 +1,1 @@
+var skyApp = angular.module("skyApp", []);
