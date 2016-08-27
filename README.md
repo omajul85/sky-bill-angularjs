@@ -6,7 +6,7 @@ Description here!
 
 ### Clone this repo to your computer
 
-    $ git clone https://github.com/omajul85/sky-bill
+    $ git clone https://github.com/omajul85/sky-bill-angularjs
 
 ### Install the Java Development Kit (JDK)
 
