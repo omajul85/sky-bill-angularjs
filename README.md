@@ -1,6 +1,17 @@
 # Sky bill
 
-Description here!
+## Task
+
+To display a customer's bill
+
+### Requirements
+
+* Complete the task in a language of your choice using whatever tools or frameworks that you want.
+* Must consume bill JSON from endpoint: 
+```
+http://safe-plains-5453.herokuapp.com/bill.json
+```
+* JSON must be consumed by a server acting as a proxy.
 
 ## Setting up
 
@@ -55,3 +66,8 @@ In a *third* terminal (with your app and Selenium still running from the previou
 If you see "Error: listen EADDRINUSE 0.0.0.0:8080" when you run `npm run start-app`, you may have the app already running in a separate tab.
 
 Go to [http://localhost:8080](http://localhost:8080) in your web browser.
+
+
+## Deployment
+
+The application has been pushed to Heroku using Git. You can see the result <a href="https://sky-bill-omajul85.herokuapp.com/" target="_blank">here</a>.
