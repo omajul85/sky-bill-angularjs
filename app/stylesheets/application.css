@@ -118,3 +118,7 @@ div.panel.show {
 	background-color: rgba(230, 233, 30, 0.48);
 	color: black;
 }
+
+#type {
+	text-transform: capitalize;
+}
